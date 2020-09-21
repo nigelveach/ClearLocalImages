@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Clears local image files from terraclear proximal laptop
+# Version 1.0
+# Author Nigel Veach nigel.veach@gmail.com
+
 read -p "Are you sure you want to delete all local proximal images? `echo $'\n> '` This will not delete the folders, only the images within them.  (y/n) " -n 1 -r
 echo    # move to a new line
 if [[ $REPLY =~ ^[Yy]$ ]]
