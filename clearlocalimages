@@ -14,6 +14,6 @@ then
 	if [[ $REPLY =~ ^[Yy]$ ]]
 	then	
 		sleep 0.5
-		find /data/ml/terracam -type f -iname "*.png" -delete # recursively deletes all png files from all subdirectories in terracam output
+		find /data/ml/terracam/output -type f -iname "*.png" -delete # recursively deletes all png files from all subdirectories in terracam output
 	fi
 fi
